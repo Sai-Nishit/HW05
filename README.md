@@ -1,60 +1,32 @@
-# p5.js Template
+## Overview
+This project is a creative and elegant clock designed using p5.js. It features dynamic visual elements and subtle animations that create an engaging and modern look. The clock is built to adapt to various screen sizes, offering a responsive and visually appealing design.
 
-This is a README file that can be used to describe and document your assignment.
+### Features
+Analog Arcs for Time:
+The clock uses colorful arcs to represent hours, minutes, and seconds.
+Each arc smoothly animates with a slight pulsating effect.
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
+Digital Time Display:
+The current time is shown in a clean, digital format (HH:MM:SS).
 
----
----
+Day and Date:
+The current day of the week and the date are displayed below the clock for convenience.
 
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
+Rotating Dots for Seconds:
+Small, pastel-colored dots rotate around the clock center to represent seconds dynamically.
 
-**bold text**
+Pulsating Background Glow:
+A hue-shifting gradient background adds a calming and modern touch.
 
-*italicized text*
+Responsive Design:
+The clock dynamically adjusts to fit the screen size, ensuring a seamless experience across devices.
 
-~~strikethrough text~~
+## How It Works
 
-Ordered List:
-1. First item
-2. Second item
-3. Third item
+Time Representation:
+The clock uses the current system time to update the arcs, dots, and text dynamically.
+The hour(), minute(), and second() functions fetch the current time.
 
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2024f-b.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+Animations:
+Subtle pulsating effects for arcs and floating dots are achieved using sine wave functions.
+The background color shifts gently across the hue spectrum using HSB color mode.
